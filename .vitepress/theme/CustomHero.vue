@@ -1,5 +1,6 @@
 <script setup>
 import { withBase } from 'vitepress'
+import heroImg from '/images/01.webp'
 </script>
 
 <template>
@@ -14,7 +15,7 @@ import { withBase } from 'vitepress'
       </div>
     </div>
     <div class="hero-image">
-      <img :src="withBase('/images/01.webp')" alt="Scyllascope plugin interface" />
+      <img :src="heroImg" alt="Scyllascope plugin interface" />
     </div>
   </section>
   </div>
