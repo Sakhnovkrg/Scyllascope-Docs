@@ -2,20 +2,6 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-hero:
-  name: "Scyllascope"
-  tagline: Oscilloscope with built-in recorder (VST3, AU, LV2)
-  image:
-    src: /images/01.webp
-    alt: Scyllascope plugin interface
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /get-started/introduction
-    - theme: alt
-      text: Download
-      link: https://dsgdnb.com/plugins/scyllascope
-
 features:
   - title: Multiple View Modes
     details: Sync, Free, and Scroll modes with smooth zoom and pan navigation

@@ -99,62 +99,8 @@
 /* ------------------------------------------------------------------ */
 /*  Component: Home hero                                              */
 /* ------------------------------------------------------------------ */
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #00ff88 30%,
-    #00ff88
-  );
-
-  --vp-home-hero-image-background-image: radial-gradient(
-    ellipse at center,
-    rgba(0, 255, 136, 0.25) 0%,
-    rgba(0, 187, 102, 0.1) 40%,
-    transparent 70%
-  );
-  --vp-home-hero-image-filter: blur(44px);
-}
-
-@media (min-width: 640px) {
-  :root {
-    --vp-home-hero-image-filter: blur(56px);
-  }
-}
-
-@media (min-width: 960px) {
-  :root {
-    --vp-home-hero-image-filter: blur(68px);
-  }
-}
-
-/* ---- Hero image styling ---- */
-.VPHero .image-container {
-  overflow: visible;
-}
-
-.VPHero .image-container .image-bg {
-  display: none;
-}
-
-.VPHero .image-src {
-  max-width: 100%;
-  border-radius: 12px;
-  box-shadow: none;
-  border: none;
-}
-
-@media (max-width: 959px) {
-  .VPHero .image-container {
-    margin: 24px auto 0;
-    max-width: 480px;
-  }
-}
-
-@media (min-width: 960px) {
-  .VPHero .image-container {
-    transform: scale(1.5) translateX(32px);
-  }
+.VPHero {
+  display: none !important;
 }
 
 /* ------------------------------------------------------------------ */
@@ -180,6 +126,7 @@
 .dark .VPSidebarItem.is-active > .item > .link > .text {
   color: #00ff88;
 }
+
 
 /* ------------------------------------------------------------------ */
 /*  Scrollbar (CRT / oscilloscope vibe)                               */
@@ -213,6 +160,7 @@
   color: #00ffaa;
 }
 
+
 /* ------------------------------------------------------------------ */
 /*  Component: Footer                                                  */
 /* ------------------------------------------------------------------ */
@@ -223,4 +171,20 @@
 
 .VPFooter .message a:hover {
   color: #e09940;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Component: Keyboard keys                                           */
+/* ------------------------------------------------------------------ */
+kbd {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.85em;
+  font-family: inherit;
+  line-height: 1.4;
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-elv);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 4px;
+  box-shadow: 0 1px 0 var(--vp-c-border);
 }

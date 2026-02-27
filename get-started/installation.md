@@ -1,6 +1,6 @@
 # Installation
 
-The plugin has been tested with all major DAWs on Windows 10–11, modern versions of macOS, and Linux Mint. Available formats: VST3, AU, and LV2. Prefer VST3 when possible — some features are only available in the VST3 version.
+The plugin has been tested with all major DAWs on Windows 10–11, modern versions of macOS, and Linux Mint. Available formats: VST3, AU, and LV2. **Prefer VST3 when possible** — some features are only available in the VST3 version.
 
 Download the latest build from [dsgdnb.com/plugins/scyllascope](https://dsgdnb.com/plugins/scyllascope). Extract the archive and follow the instructions for your platform below.
 

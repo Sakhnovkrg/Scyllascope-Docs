@@ -3,5 +3,8 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "markdown-it-kbd": "^3.0.2"
   }
 }
