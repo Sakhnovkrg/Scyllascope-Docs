@@ -1,3 +1,7 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 <template>
   <div class="hero-container">
   <section class="custom-hero">
@@ -5,12 +9,12 @@
       <h1 class="hero-title">Scyllascope</h1>
       <p class="hero-tagline">Oscilloscope with built-in recorder (VST3, AU, LV2)</p>
       <div class="hero-actions">
-        <a class="hero-btn brand" href="/get-started/introduction.html">Get Started</a>
+        <a class="hero-btn brand" :href="withBase('/get-started/introduction.html')">Get Started</a>
         <a class="hero-btn alt" href="https://dsgdnb.com/plugins/scyllascope" target="_blank" rel="noreferrer">Download</a>
       </div>
     </div>
     <div class="hero-image">
-      <img src="/images/01.webp" alt="Scyllascope plugin interface" />
+      <img :src="withBase('/images/01.webp')" alt="Scyllascope plugin interface" />
     </div>
   </section>
   </div>
