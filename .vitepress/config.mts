@@ -62,6 +62,7 @@ export default defineConfig({
         text: 'Misc',
         items: [
           { text: 'Hotkeys', link: '/misc/hotkeys' },
+          { text: 'Reaper Embedded', link: '/misc/reaper-embedded' },
         ]
       },
       {

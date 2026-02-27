@@ -22,3 +22,10 @@ A quick reference of all keyboard and mouse shortcuts in Scyllascope.
 | [[Ctrl]] / [[⌘ Cmd]] + [[Click]] on BP | Toggle listening mode | [BP](/footer/bp) |
 | Drag waveform icon | Export recorded audio | [Recorder](/footer/recorder) |
 | [[Right Click]] waveform icon | Preprocessing options | [Recorder](/footer/recorder) |
+
+## Reaper Embedded
+
+| Shortcut | Action | Details |
+|----------|--------|---------|
+| [[Mouse Wheel]] | Change division | [Reaper Embedded](/misc/reaper-embedded) |
+| [[Double Click]] | Reset waveform | [Reaper Embedded](/misc/reaper-embedded) |
