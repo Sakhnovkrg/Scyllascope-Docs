@@ -58,12 +58,24 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Advanced',
+        text: 'Misc',
         items: [
-          { text: 'overrides.json', link: '/advanced/overrides-json' },
+          { text: 'Hotkeys', link: '/misc/hotkeys' },
+        ]
+      },
+      {
+        text: 'Customization',
+        items: [
+          { text: 'overrides.json', link: '/customization/overrides-json' },
+          { text: 'Themes', link: '/customization/themes' },
         ]
       }
     ],
+
+    editLink: {
+      pattern: 'https://github.com/Sakhnovkrg/Scyllascope-Docs/edit/main/:path',
+      text: 'Help to improve'
+    },
 
     footer: {
       message: '<a href="https://dsgdnb.com/donate">Donate</a>',

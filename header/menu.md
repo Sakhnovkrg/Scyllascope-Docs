@@ -32,7 +32,7 @@ Opens the folder where recorded audio files are saved.
 
 ## Rounded Corners
 
-Toggles rounded corners on UI elements. You can also customize the corner radius in [overrides.json](/advanced/overrides-json).
+Toggles rounded corners on UI elements. You can also customize the corner radius in [overrides.json](/customization/overrides-json).
 
 ## Guide Lines
 

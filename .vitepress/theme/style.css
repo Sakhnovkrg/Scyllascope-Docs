@@ -46,7 +46,7 @@
 /* ------------------------------------------------------------------ */
 .dark {
   /* ---- backgrounds ---- */
-  --vp-c-bg:       #16162a;
+  --vp-c-bg:       #0e0e1e;
   --vp-c-bg-alt:   #0f0f1a;
   --vp-c-bg-elv:   #1a1a2e;
   --vp-c-bg-soft:  #1a1a2e;
@@ -117,9 +117,9 @@
 /*  Component: Nav / Sidebar                                          */
 /* ------------------------------------------------------------------ */
 .dark {
-  --vp-nav-bg-color: #16162a;
-  --vp-sidebar-bg-color: #16162a;
-  --vp-local-nav-bg-color: #16162a;
+  --vp-nav-bg-color: #0e0e1e;
+  --vp-sidebar-bg-color: #0e0e1e;
+  --vp-local-nav-bg-color: #0e0e1e;
 }
 
 /* Active sidebar link highlight */
