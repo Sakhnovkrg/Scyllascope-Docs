@@ -8,6 +8,7 @@ export default defineConfig({
       md.use(markdownItKbd)
     }
   },
+  base: '/Scyllascope-Docs/',
   title: "Scyllascope Docs",
   description: "Oscilloscope with built-in recorder",
   appearance: 'force-dark',
