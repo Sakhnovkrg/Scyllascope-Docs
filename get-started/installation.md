@@ -59,11 +59,11 @@ After any of these steps, restart your DAW and rescan plugins.
 
 Copy the `.vst3` file to:
 
-- `/usr/local/lib/vst3`
+- `/usr/lib/vst3`
 - Or any other path your DAW is configured to scan
 
 For LV2, copy the `.lv2` bundle to:
 
-- `/usr/local/lib/lv2`
+- `/usr/lib/lv2`
 
 These are system paths. Use `sudo cp` to copy the files.
